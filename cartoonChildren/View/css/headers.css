@@ -1,0 +1,19 @@
+.logo{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+@media only screen and  (max-width: 1200px) {
+	#header{
+		width: 1200px;
+	}
+	.logo{
+		margin-left: 0px;
+	}
+	#footer{
+		width: 1200px;
+	}
+	#main{
+		width: 1200px;
+	}
+}

@@ -1,0 +1,153 @@
+a {
+	text-decoration: none;
+}
+
+.wrap {
+	width: 750px;
+	height: 180px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+
+.top {
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.top-left {
+	float: left;
+	height: 100%;
+	line-height: 40px;
+	text-indent: 1em;
+	font-size: 20px;
+	color: orange;
+}
+
+.top-right {
+	float: right;
+	width: 60%;
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	padding-right: 20px;
+}
+
+.top-right a {
+	width: 100%;
+	color: orange;
+}
+
+.middle {
+	height: 100px;
+	width: 100%;
+}
+
+.middle textarea {
+	width: 720px;
+	height: 90px;
+	margin-left: 13px;
+	border: 1px solid #CCCCCC;
+	resize: none;
+}
+
+.bottom {
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.bottom-left {
+	height: 100%;
+	width: 350px;
+	float: left;
+}
+
+.bottom-left div {
+	width: 70px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 37px;
+}
+
+.bottom-left div:hover {
+	color: orange;
+}
+
+.btm {
+	float: right;
+	background-color: orange;
+	margin-right: 11px;
+	margin-top: 5px;
+	width: 84px;
+    height: 26px;
+    line-height: 26px;
+	display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #699f00;
+   	border: 0;
+    border-radius: 3px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.message {
+	width: 750px;
+	height: auto;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mes li {
+	width: 730px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 9px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.name,.m_title {
+	line-height: 30px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #2191cb;
+}
+.m_content {
+	width: 680px;
+	padding-left: 20px;
+	font-size: 14px;
+	word-wrap: break-word;
+	line-height: 18px;
+	text-indent: 2em;
+}
+
+.m_time {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: darkgrey;
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+.close{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: -10px;
+	bottom: -30px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.close a:hover {
+	color: red;
+}
